@@ -2,9 +2,15 @@
 
 Implementation of the algorithms:
  * Mint (ViterbiOptimalPath) for efficient decoding; 
- * Tech (HistogramConstruction) for efficient histogram construction. 
+ * Tech (HistogramConstruction) for efficient histogram construction.
 
-The algorithms are based on the ISABELLA framework. 
+The algorithms are based on the CompactBFS framework. The algorithms are presented in the paper:
+
+> Martino Ciaperoni, Nikolaos Tziavelis, and Panagiotis Karras, _Efficient Optimization of Fixed-Length Paths_.
+
+The full version of the paper, including the appendix, is available here:
+
+📄 [Full version of the paper](full_version.pdf)
 
 Scripts and datasets are also provided. 
 
@@ -33,3 +39,4 @@ In addition we provide a simple script performing a basic test, checking the opt
 ## 📦 Dependencies
 
 Our implementation uses the PQDict module (see: https://pypi.org/project/pqdict/). 
+
